@@ -261,6 +261,7 @@ img{
 	padding: 15px 40px;
 	color: #fff;
 	background: linear-gradient(90deg, #64AA44 10%, #64AA44 110.43%);
+	display: inline-block;
 	@include media-breakpoint-down(md) {
 		padding: 12px 25px;
 		font-size: 18px;
@@ -1500,6 +1501,30 @@ img{
 		&__link{
 			color: #000;
 			text-decoration: none;
+		}
+	}
+}
+
+.contacts{
+	padding-bottom: 50px;
+	&-map{
+		border: 0;
+		width: 100%;
+	}
+	&-text{
+		&__heading{
+			font-family: 'Montserrat', sans-serif;
+			font-size: 18px;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		&__par{
+			margin-bottom: 20px;
+			margin-top: 10px;
+			a{
+				color: #000;
+				text-decoration: none;
+			}
 		}
 	}
 }
