@@ -5271,19 +5271,19 @@ img {
   padding: 0; }
   .pagination-list__item {
     border: 1px solid #dee2e6;
-    margin-left: -1px;
-    padding: 10px 15px; }
+    margin-left: -1px; }
     .pagination-list__item:first-child {
       margin-left: 0; }
     .pagination-list__item:hover {
       cursor: pointer; }
     .pagination-list__item_active {
-      background-color: #4CAF50; }
-      .pagination-list__item_active a {
-        color: #fff; }
+      background-color: #4CAF50;
+      color: #fff; }
   .pagination-list__link {
     color: #000;
-    text-decoration: none; }
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px; }
 
 .contacts {
   padding-bottom: 50px; }

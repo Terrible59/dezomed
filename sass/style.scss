@@ -1486,7 +1486,7 @@ img{
 		&__item{
 			border: 1px solid #dee2e6;
 			margin-left: -1px;
-			padding: 10px 15px;
+			
 			&:first-child{
 				margin-left: 0;
 			}
@@ -1495,14 +1495,14 @@ img{
 			}
 			&_active{
 				background-color: #4CAF50;
-				a{
-					color: #fff;
-				}
+				color: #fff;
 			}
 		}
 		&__link{
 			color: #000;
 			text-decoration: none;
+			display: block;
+			padding: 10px 15px;
 		}
 	}
 }
