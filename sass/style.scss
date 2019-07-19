@@ -417,6 +417,9 @@ img{
 	padding: 15px 25px;
 	border-radius: 100px;
 	border: 2px solid #C4C4C4;
+	&:active, &:focus{
+		outline: none;
+	}
 	&_consult{
 		flex-basis: 30%;
 		@include media-breakpoint-down(md) {
