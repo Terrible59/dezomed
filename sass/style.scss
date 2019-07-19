@@ -297,6 +297,8 @@ img{
 	&_gradient{
 		position: relative;
 		background: linear-gradient(90deg, #F75C1A 10%, #A2E034 110.43%);
+		display: inline-block;
+		text-decoration: none;
 		a{
 			position: relative;
 			z-index: 2;
