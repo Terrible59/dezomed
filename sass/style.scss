@@ -1043,7 +1043,7 @@ img{
 		display: flex;
 		flex-direction: column;
 		// justify-content: space-between;
-		
+
 		&:hover{
 			cursor: pointer;
 			a::after{
@@ -1131,6 +1131,12 @@ img{
 				margin-left: 10px;
 				transition: .5s;
  			}
+		}
+		&_offset{
+			margin-bottom: 20px;
+			&::after{
+				bottom: 0;
+			}
 		}
 		@include media-breakpoint-down(md){
 			min-height: 350px;

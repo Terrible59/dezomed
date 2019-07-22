@@ -4925,6 +4925,10 @@ img {
         -webkit-transition: .5s;
         -o-transition: .5s;
         transition: .5s; }
+    .news-card_offset {
+      margin-bottom: 20px; }
+      .news-card_offset::after {
+        bottom: 0; }
     @media (max-width: 991.98px) {
       .news-card {
         min-height: 350px; }
