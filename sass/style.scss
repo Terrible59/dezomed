@@ -1035,7 +1035,7 @@ img{
 		position: relative;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
+		// justify-content: space-between;
 		
 		&:hover{
 			cursor: pointer;
@@ -1057,6 +1057,11 @@ img{
 			background: linear-gradient(90deg, #F75C1A 10%, #A2E034 110.43%);
 			transform: scale(0);
 			transition: .3s;
+		}
+		&-text{
+			&__wrapper{
+				margin-top: 20px;
+			}
 		}
 		&__img{
 			width: 100%;
@@ -1087,6 +1092,8 @@ img{
 			}
 		}
 		&__link{
+			display: block;
+			margin-top: auto;
 			font-family: 'Montserrat', sans-serif;
 			font-size: 20px;
 			font-weight: 600;
@@ -1497,6 +1504,7 @@ img{
 				cursor: pointer;
 			}
 			&_active{
+				padding: 10px 15px;
 				background-color: #4CAF50;
 				color: #fff;
 			}
