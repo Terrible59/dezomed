@@ -269,6 +269,7 @@ img{
 	color: #fff;
 	background: linear-gradient(90deg, #64AA44 10%, #64AA44 110.43%);
 	display: inline-block;
+	text-decoration: none!important;
 	@include media-breakpoint-down(md) {
 		padding: 12px 25px;
 		font-size: 18px;

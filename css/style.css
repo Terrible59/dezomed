@@ -4049,7 +4049,8 @@ img {
   background: -webkit-linear-gradient(left, #64AA44 10%, #64AA44 110.43%);
   background: -o-linear-gradient(left, #64AA44 10%, #64AA44 110.43%);
   background: linear-gradient(90deg, #64AA44 10%, #64AA44 110.43%);
-  display: inline-block; }
+  display: inline-block;
+  text-decoration: none !important; }
   @media (max-width: 991.98px) {
     .button {
       padding: 12px 25px;
