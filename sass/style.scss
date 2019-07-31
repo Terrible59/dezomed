@@ -1063,7 +1063,7 @@ img{
 				margin-left: 20px;
 			}
 			&::after{
-				transform: scale(1);
+				transform: scale(1); 
 			}
 		}
 		&::after{
@@ -1081,12 +1081,12 @@ img{
 		&-title-wrapper{
 			text-decoration: none;
 			color: #000;
-		}
+		}  
 		&-text{
 			&__wrapper{
 				margin-top: 20px;
 			}
-		}
+		} 
 		&__img{
 			width: 100%;
 			margin: 0;

@@ -4704,6 +4704,9 @@ img {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
       transform: scale(1.05); }
+    .product-card__link {
+      text-decoration: none;
+      color: #000; }
     .product-card__title {
       font-family: 'Montserrat', sans-serif;
       margin-top: 0;
@@ -4858,6 +4861,9 @@ img {
       -webkit-transition: .3s;
       -o-transition: .3s;
       transition: .3s; }
+    .news-card-title-wrapper {
+      text-decoration: none;
+      color: #000; }
     .news-card-text__wrapper {
       margin-top: 20px; }
     .news-card__img {
