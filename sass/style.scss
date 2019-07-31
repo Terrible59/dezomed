@@ -1,3 +1,7 @@
+*{
+	outline: none;
+}
+
 body{
 	font-family: 'Roboto', sans-serif;
 	overflow-x: hidden; 
@@ -897,7 +901,7 @@ img{
 }
 
 .product{
-	padding: 50px 0;
+	padding: 100px 0;
 	background-image: url('../img/product-bg.png');
 	background-size: 100%	;
 	background-repeat: no-repeat;
@@ -910,7 +914,7 @@ img{
 		background: #fff;
 	}
 	&-card{
-		margin-bottom: 70px;
+		margin-bottom: 100px;
 		display: flex;
 		justify-content: space-between;	
 		&:hover{
@@ -1199,10 +1203,12 @@ img{
 .footer{
 	background-image: url('../img/footer-bg.png');
 	background-size: cover;
-	background-position: bottom;
+	background-position-y: 100px;
+	background-repeat: no-repeat;
 	&-contact{
 		padding: 50px 0;
 		&-card{
+			background-color: #fff;
 			height: 100%;
 			padding: 20px;
 			padding-right: 10px;
@@ -1211,8 +1217,8 @@ img{
 			align-items: center;
 			@include media-breakpoint-down(lg) {
 				display: block;
-				text-align: center;
-			}
+				text-align: center;  
+			} 
 			&:hover{
 				svg{
 					fill: #FED200;

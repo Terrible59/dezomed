@@ -3761,6 +3761,9 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 
+* {
+  outline: none; }
+
 body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
@@ -4675,7 +4678,7 @@ img {
           margin-right: auto; } }
 
 .product {
-  padding: 50px 0;
+  padding: 100px 0;
   background-image: url("../img/product-bg.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -4687,7 +4690,7 @@ img {
     .product {
       background: #fff; } }
   .product-card {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4999,10 +5002,12 @@ img {
 .footer {
   background-image: url("../img/footer-bg.png");
   background-size: cover;
-  background-position: bottom; }
+  background-position-y: 100px;
+  background-repeat: no-repeat; }
   .footer-contact {
     padding: 50px 0; }
     .footer-contact-card {
+      background-color: #fff;
       height: 100%;
       padding: 20px;
       padding-right: 10px;
