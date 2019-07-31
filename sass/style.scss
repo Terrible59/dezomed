@@ -1,5 +1,8 @@
-*{
+a, button, input{
 	outline: none;
+	&:active, &:focus{
+		outline: none!important;
+	}
 }
 
 body{
