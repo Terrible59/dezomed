@@ -4688,7 +4688,8 @@ img {
   background-position: center; }
   .product_catalog {
     background: none;
-    padding-top: 0; }
+    padding-top: 0;
+    padding-bottom: 0px; }
   @media (max-width: 767.98px) {
     .product {
       background: #fff; } }
@@ -4723,6 +4724,8 @@ img {
       margin-top: 0;
       margin-bottom: 10px;
       font-size: 18px; }
+      .product-card__subtitle::after {
+        content: '\20BD'; }
       @media (max-width: 991.98px) {
         .product-card__subtitle {
           font-size: 16px; } }
@@ -5195,11 +5198,11 @@ img {
 
 .inner-main-text {
   font-size: 18px;
-  line-height: 22px; }
+  line-height: 28px; }
   @media (max-width: 767.98px) {
     .inner-main-text {
       font-size: 16px;
-      line-height: 20px; } }
+      line-height: 24px; } }
 
 .inner-main-product-img-wrapper {
   display: -webkit-box;

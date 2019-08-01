@@ -913,6 +913,7 @@ img{
 	&_catalog{
 		background:none;
 		padding-top: 0;
+		padding-bottom: 0px;
 	}
 	@include media-breakpoint-down(sm){
 		background: #fff;
@@ -948,6 +949,9 @@ img{
 			margin-top: 0;
 			margin-bottom: 10px;
 			font-size: 18px;
+			&::after{
+				content: '\20BD';
+			}
 			@include media-breakpoint-down(md){
 				font-size: 16px;
 			}
@@ -1413,10 +1417,10 @@ img{
 	&-main{
 		&-text{
 			font-size: 18px;
-			line-height: 22px;
+			line-height: 28px;
 			@include media-breakpoint-down(sm){
 				font-size: 16px;
-				line-height: 20px;
+				line-height: 24px;
 			}
 		}
 		&-product{
