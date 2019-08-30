@@ -5908,16 +5908,20 @@ img {
     padding-bottom: 0;
   }
 }
+.adv-col {
+  margin-bottom: 30px;
+}
 .adv-card {
   padding: 30px 15px;
   text-align: center;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
   position: relative;
-}
-@media (max-width: 991.98px) {
-  .adv-card {
-    margin-bottom: 30px;
-  }
+  height: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .adv-card:hover::after {
   transform: scale(1);
@@ -6467,6 +6471,14 @@ img {
 .inner-main-product-info-list__car {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.inner-main-product-text ul {
+  list-style-image: linear-gradient(90deg, #64AA44 10%, #64AA44 110.43%);
+  list-style-type: disc;
+}
+.inner-main-product-text p, .inner-main-product-text li, .inner-main-product-text span {
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .sertificate {
