@@ -1003,7 +1003,7 @@ img{
 	}
 }
 
-.adv{
+.vantage{ 
 	padding-bottom: 50px;
 	@include media-breakpoint-down(xs) {
 		padding-bottom: 0;
@@ -1020,7 +1020,7 @@ img{
 		margin-bottom: 30px;  
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: flex-start;
 		align-items: center; 
 		// margin-bottom: 30px;
 		// @include media-breakpoint-down(md){

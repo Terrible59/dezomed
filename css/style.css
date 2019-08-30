@@ -5900,18 +5900,18 @@ img {
   }
 }
 
-.adv {
+.vantage {
   padding-bottom: 50px;
 }
 @media (max-width: 575.98px) {
-  .adv {
+  .vantage {
     padding-bottom: 0;
   }
 }
-.adv-col {
+.vantage-col {
   margin-bottom: 30px;
 }
-.adv-card {
+.vantage-card {
   padding: 30px 15px;
   text-align: center;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
@@ -5920,13 +5920,13 @@ img {
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
-.adv-card:hover::after {
+.vantage-card:hover::after {
   transform: scale(1);
 }
-.adv-card::after {
+.vantage-card::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -5938,27 +5938,27 @@ img {
   transform: scale(0);
   transition: 0.3s;
 }
-.adv-card__img {
+.vantage-card__img {
   margin-bottom: 30px;
 }
-.adv-card__title {
+.vantage-card__title {
   margin-top: 0;
   margin-bottom: 15px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
 @media (max-width: 767.98px) {
-  .adv-card__title {
+  .vantage-card__title {
     margin-bottom: 10px;
   }
 }
-.adv-card__text {
+.vantage-card__text {
   margin: 0;
   font-size: 16px;
   line-height: 20px;
 }
 @media (max-width: 767.98px) {
-  .adv-card__text {
+  .vantage-card__text {
     font-size: 15px;
   }
 }
