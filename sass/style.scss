@@ -918,6 +918,7 @@ img{
 	background-size: 100%	;
 	background-repeat: no-repeat;
 	background-position: center;
+	padding-bottom: 0;
 	&_catalog{
 		background:none;
 		padding-top: 0;
@@ -1433,6 +1434,7 @@ img{
 
 .inner{
 	&-main{
+		padding-bottom: 60px;
 		&-text{
 			font-size: 18px;
 			line-height: 28px;
@@ -1527,6 +1529,9 @@ img{
 				ul{
 					list-style-image: linear-gradient(90deg, #64AA44 10%, #64AA44 110.43%);
 					list-style-type: disc;
+					li{
+						padding: 10px 0;
+					}
 				}
 				p, li, span{
 					font-size: 18px;

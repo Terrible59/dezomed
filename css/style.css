@@ -5799,6 +5799,7 @@ img {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  padding-bottom: 0;
 }
 .product_catalog {
   background: none;
@@ -6369,6 +6370,9 @@ img {
   color: #000;
 }
 
+.inner-main {
+  padding-bottom: 60px;
+}
 .inner-main-text {
   font-size: 18px;
   line-height: 28px;
@@ -6475,6 +6479,9 @@ img {
 .inner-main-product-text ul {
   list-style-image: linear-gradient(90deg, #64AA44 10%, #64AA44 110.43%);
   list-style-type: disc;
+}
+.inner-main-product-text ul li {
+  padding: 10px 0;
 }
 .inner-main-product-text p, .inner-main-product-text li, .inner-main-product-text span {
   font-size: 18px;
