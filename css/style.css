@@ -5941,6 +5941,7 @@ img {
 }
 .vantage-card__img {
   margin-bottom: 30px;
+  max-width: 70px;
 }
 .vantage-card__title {
   margin-top: 0;
