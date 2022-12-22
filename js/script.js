@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  $('input[type="tel"]').mask("+7 (999) 999-99-99");
   $('.main-slider').slick({
     slidesToShow: 1,
     fade: true,
